@@ -1,4 +1,4 @@
-# LASSO with Noncrossing constraints
+# LASSO with Non-crossing constraints
 
 Matlab code to replicate the paper "Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution". If you use the code in your work please cite as:
 

@@ -1,9 +1,8 @@
-# LASSO with Non-crossing constraints
+# LASSO variable selection Quantile Regression with Non-crossing constraints
 
 Matlab code to replicate the paper "Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution". If you use the code in your work please cite as:
 
-Szendrei, T., & Varga, K. (2023). Revisiting vulnerable growth in the Euro Area: Identifying the role of
-financial conditions in the distribution. [Economics Letters, 223, 110990](https://doi.org/10.1016/j.econlet.2023.110990).
+Szendrei, T., & Varga, K. (2023). Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution. [Economics Letters, 223, 110990](https://doi.org/10.1016/j.econlet.2023.110990).
 
 -----
 

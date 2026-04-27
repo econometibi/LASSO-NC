@@ -112,7 +112,7 @@ x2=ones(size(R,1),1);
 
 %ESTIMATION
 %Uses interior point method
-coeff1=-lp_fnm(X2',-Y',R',-r',b,u,x1,x2); %Functions from Roger Koenker's rqic codefile
+coeff1=-lp_fnm_fast(X2',-Y',R',-r',b,u,x1,x2); %Functions from Roger Koenker's rqic codefile
 
 %Calculate coefficients using solution of interior metod
 coeff=coeff1(1:K)-coeff1((K+1):2*K);

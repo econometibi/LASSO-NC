@@ -11,7 +11,7 @@ excl_list=[1];                  %Exclusion from shrinkage (Constant automaticall
 h=1;                            %Forecast horizon: h={1,4}
 taus=[0.1:0.1:0.9];             %Estimated quantiles
 BICparam=2;                     %BIC or AIC: AIC=1 BIC=2
-tmax=150;                       %Maximum variation allowed
+tmax=150;                       %Maximum variation allowed (Usually best to allow this to be equal or a bit larger than Sum(QR)
 increm=0.5;                     %Fineness of lambda grid
 AdaLASSO=1;                     %Adaptive LASSO choice
 LASSORUN=1;                     %First time LASSO run=1
